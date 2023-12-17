@@ -4,6 +4,7 @@
   *k_rotr- function that rotates the stack to the bottom
   *@stack: points to the stack head
   *@number: The line_number
+  *Written by kehinde Arowolo
   *Return: Always success
  */
 void k_rotr(stack_t **stack, __attribute__((unused)) unsigned int number)
