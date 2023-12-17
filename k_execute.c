@@ -4,8 +4,7 @@
  * execute - executes the opcode
  * @con: line content
  * @stack: head linked list - stack
- * @number: line_counter
- * Written by kehinde Arowolo
+ * @number: line ccounter
  * @file: pointer to monty file
  * Return: Always success
  */
@@ -13,10 +12,7 @@ int execute(char *con, stack_t **stack, unsigned int number, FILE *file)
 {
 	instruction_t opst[] = {
 		{"push", push_to_stack}, {"pall", print_to_pall}, {"pint", pe_pint},
-		{"sub", sub},
-		{"div", pe_div},
-		{"mul", k_mul},
-		{"mod", k_mod},
+		{"sub", sub}, {"div", pe_div}, {"mul", k_mul}, {"mod", k_mod},
 		{"pchar", k_pchar},
 		{"pstr", pe_pstr},
 		{"rotl", pe_rotl},

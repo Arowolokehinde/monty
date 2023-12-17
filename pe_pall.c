@@ -9,16 +9,16 @@
  */
 void print_to_pall(stack_t **stack, unsigned int number)
 {
-        stack_t *temp;
-        (void)number;
+	stack_t *temp;
+	(void)number;
 
-        temp = *stack;
-        if (temp == NULL)
-                return;
+	temp = *stack;
+	if (temp == NULL)
+		return;
 
-        while (temp)
-        {
-                printf("%d\n", temp->n);
-                temp = temp->next;
-        }
+	while (temp)
+	{
+		printf("%d\n", temp->n);
+		temp = temp->next;
+	}
 }
