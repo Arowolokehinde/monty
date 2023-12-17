@@ -5,6 +5,7 @@
  * @con: line content
  * @stack: head linked list - stack
  * @number: line_counter
+ * Written by kehinde Arowolo
  * @file: pointer to monty file
  * Return: Always success
  */
